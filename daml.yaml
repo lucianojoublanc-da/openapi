@@ -1,0 +1,12 @@
+sdk-version: 0.13.54
+name: stripe-openapi
+version: 0.0.1
+source: daml/StripeAPI.daml
+parties:
+- Alice
+- Bob
+exposed-modules:
+- StripeAPI
+dependencies:
+- daml-prim
+- daml-stdlib
